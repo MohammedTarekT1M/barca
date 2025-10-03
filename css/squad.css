@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  h2{
+    color: #ffcc00;
+    background: linear-gradient(to left, #003A70, #a50044);
+    border-radius: 15px;
+  }
+  
+  header {
+    background-color: #A50044;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
+  .logo {
+    width: 60px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 30px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  /* Squad section */
+#squad {
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .squad-group {
+    margin-top: 40px;
+  }
+  
+  .squad-group h3 {
+    margin-bottom: 20px;
+    color: #222;
+    font-size: 24px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .player-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .player-card {
+    width: 180px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+  }
+  
+  .player-card:hover {
+    transform: scale(1.95);
+  }
+  
+  .player-card img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .player-info {
+    margin-top: 10px;
+  }
+  
+  .first-name {
+    display: block;
+    font-size: 14px;
+  }
+  
+  .last-name {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .position {
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  
+  .gradient-redblue {
+    background: linear-gradient(to bottom, #a50044, #003399);
+  }
+  
+  
+  .players {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .player-card {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .player-card img {
+    width: 100px;
+  }
+  
+  .videos iframe {
+    margin: 10px;
+  }
+  
+  footer {
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: auto;
+    bottom: 0;
+}
+  
+  

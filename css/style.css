@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #003A70;
+    color: #FFF;
+}
+.header {
+    background-color: #A50044;
+    padding: 20px;
+    text-align: center;
+}
+.header img {
+    width: 100px;
+    height: auto;
+}
+.header h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+/* Navigation Bar */
+.navbar {
+    background: linear-gradient(to left, #a50044);
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    color: white;
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item:hover,
+  .nav-item.active {
+    color: #fff;
+  }
+  
+  .nav-item::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #ffcc00; /* Barça yellow */
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-item:hover::after,
+  .nav-item.active::after {
+    width: 100%;
+  }
+  
+.main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main video {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.main video:hover{
+    box-shadow: 10px 10px #A50044;
+    transition: 0.3s ease;
+}
+.main h2 {
+    color: #FFD700;
+}
+.footer {
+    background-color: #A50044;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: auto;
+    bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.intro{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #A50044;
+    transition: 1.5s;
+}
+
+/* .logo-header{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+} */
+
+.logo{
+    position: absolute;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.logo.active{
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
+.logo.fade{
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 1.5s;
+}
